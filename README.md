@@ -48,5 +48,5 @@ del gráfico. Como resultado, hay 17.803 líneas que comienzan con "e".
 > -v (Verbosity. Si está presente, la salida se envía a la pantalla. Si -v se repite, se da más salida.)
 
 > Greedy graph.txt
-> Greedy graph.txt  -a 1 -r 1234 -v 5
+> Greedy graph.txt -a 1 -r 1234 -v 5
 ```
