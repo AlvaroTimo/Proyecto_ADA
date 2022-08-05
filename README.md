@@ -31,11 +31,11 @@ Para generar un horario universitario necesitamos considerar ciertas restriccion
 4. Finalmente, seleccione Proyecto de aplicación de consola para el tipo de proyecto y luego haga clic en Finalizar.
 
 ## Input
-A continuación se muestran las primeras líneas del archivo graph.txt, que se incluye. Las líneas iniciales
+A continuación se muestran las primeras líneas del archivo **graph.txt**, que se incluye. Las líneas iniciales
 comienzan con el carácter "c". Estos son comentarios que le dan al usuario información textual sobre el gráfico, los cuales son ignorados por los
 programas. La línea simple que comienza con "p edge" especifica que las aristas se usarán para especificar el gráfico y que contiene 250 vértices y
-17,083 aristas. Tenga en cuenta que los vértices están etiquetados desde 1 hacia arriba. Finalmente, las líneas que comienzan con "e" dan las aristas
-del gráfico. Como resultado, hay 17.803 líneas que comienzan con "e".
+17,083 aristas. Tenga en cuenta que los vértices están etiquetados desde 1 hacia arriba. Finalmente, las líneas que comienzan con 'e' dan las aristas
+del gráfico. Como resultado, hay 17.803 líneas que comienzan con 'e'.
 
 ## Comandos para la ejecución de los algoritmos
 
