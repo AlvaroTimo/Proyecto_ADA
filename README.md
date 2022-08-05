@@ -5,6 +5,7 @@
 * Roy Angel Choquehuanca Anconeyrna
 * Juan manuel soto begazo	
 * Ticona Motta Alvaro Joel
+* Apaza Condori Jhon Anthony
 
 ## Definicion del problema
 
