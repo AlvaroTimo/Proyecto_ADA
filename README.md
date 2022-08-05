@@ -38,6 +38,8 @@ programas. La línea simple que comienza con "p edge" especifica que las aristas
 del gráfico. Como resultado, hay 17.803 líneas que comienzan con "e".
 
 ## Comandos para la ejecución de los algoritmos
+
+```
 > Algorithm Greedy for Graph Colouring
 > USAGE:
 > <InputFile> (Required. File must be in DIMACS format)
@@ -47,3 +49,4 @@ del gráfico. Como resultado, hay 17.803 líneas que comienzan con "e".
 
 > Greedy graph.txt
 > Greedy graph.txt  -a 1 -r 1234 -v 5
+```
