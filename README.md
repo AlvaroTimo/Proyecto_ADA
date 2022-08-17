@@ -19,6 +19,14 @@ Utilizar el método de coloración de grafos para generar horarios.
 - Generar una gráfica del grafo mediante graphviz.
 - Generar un horario factible para cierto conjunto de datos.
 
+# Estructura del Proyecto
+Durante el desarrollo del segundo parcial nos centramos en la busqueda de algoritmos que nos ayuden principalmente el problema de coloración de grafos, entre los cuales por ejemplo podemos encontrar las implementaciones del BacktrackingDSatur, el algortimo DSatur y el algoritmo Greddy. Todo esto se presenta en la sección algoritmos para colorear grafos.
+
+Durante el periodo del tercer parcial nos centramos en la implementación para generar un horario a partir de los requerimientos de alumnos para llevar cursos en cierto semestre por ejempo, y en base a los cursos disponibles por ejemplo.
+Es asi que la implementación se encuentra en la carpeta Horarios y su explicación se encuentra en la segunda seccción del proyecto.
+
+
+# Algoritmos para colorear grafos
 ## Input - Grafo
 A continuación se muestran las primeras líneas del archivo **graph.txt**, que se incluye. Las líneas iniciales
 comienzan con el carácter "c". Estos son comentarios que le dan al usuario información textual sobre el gráfico, los cuales son ignorados por los
@@ -72,7 +80,7 @@ jueves: 4
 viernes: 5 
 
 ```
-## Horarios
+# Implementación para generar horarios
 Para la generación de horarios debemos centrarnos en la carpeta **Horarios**, en la cual se encuentra la implementación para la generación de horarios.
 Dentro de esta carpeta podemos encontrar la sección Inputs en la cual se presenta un pequenio test para comprobar la funcionalidad de este.
 
