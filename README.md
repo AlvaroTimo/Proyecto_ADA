@@ -2,8 +2,8 @@
 
 ## Integrantes
 
-* Roy Angel Choquehuanca Anconeyrna
-* Juan manuel soto begazo	
+* Roy Angel Choquehuanca Anconeyra
+* Juan Manuel Soto Begazo	
 * Ticona Motta Alvaro Joel
 * Apaza Condori Jhon Anthony
 
