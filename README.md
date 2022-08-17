@@ -35,13 +35,19 @@ del gráfico. Como resultado, hay 17.803 líneas que comienzan con 'e'.
 ## Comandos para la ejecución de los algoritmos
 
 ```
-> Algorithm Greedy for Graph Colouring
-> USAGE:
-> <InputFile> (Required. File must be in DIMACS format)
-> -a <int> (Algorithm choice: 1 = Greedy (random vertex permutation) (default))
-> -r <int> (Random seed. DEFAULT = 1)
-> -v (Verbosity. Si está presente, la salida se envía a la pantalla. Si -v se repite, se da más salida.)
+Algoritmos constructivos para colorear grafos
 
-> Greedy graph.txt
-> Greedy graph.txt -a 1 -r 1234 -v 5
+USO:
+<InputFile>     (Requerido. El archivo debe estar en formato DIMACS)
+-a <int>        (elegir Algoritmo: 1 = Greedy (permutacion aleatoria de vertices) (default)
+                                   2 = Greedy (grados de vertice descendente / algoritmo Welsh-Powell)
+                                   3 = DSatur
+                                   4 = Greedy-IS (permutacion aleatoria de vertices)
+                                   5 = RLF)
+-r <int>        (Random seed(semilla). DEFAULT = 1)
+-v              (Info)
+****
+
+> g++ colgraph.cpp -o main
+> ./main graph.txt -a 1 -r 1 -v
 ```
