@@ -27,7 +27,7 @@ Es asi que la implementación se encuentra en la carpeta Horarios y su explicaci
 
 
 # Algoritmos para colorear grafos
-En este proyecto tenemos los algoritmos BacktrackingDSatur, DSatur y Greedy, ademas tenemos un archivo *colgraph.cpp*.
+En este proyecto tenemos los algoritmos BacktrackingDSatur, DSatur y Greedy, adicionalmente tenemos una carpeta llamada ColGraph que contiene una "interfaz" donde podemos elegir que metodo de coloración elegir.
 
 ## Input - Grafo
 A continuación se muestran las primeras líneas del archivo **graph.txt**, que se incluye. Las líneas iniciales
@@ -37,6 +37,33 @@ programas. La línea simple que comienza con "p edge" especifica que las aristas
 del gráfico. Como resultado, hay 29 líneas que comienzan con 'e'.
 
 ## Comandos para la ejecución de los algoritmos
+### Greedy
+Para compilar el algoritmo primeramente ejecutamos las siguientes lienas de codigo dentro de la carpeta correspondiente, es decir, dentro de la carpeta Greedy.
+```
+g++ main.cpp -o main
+./main
+``` 
+Luego de esto se mostrara una ventana donde usted puede cambiar los parametros que desee, en nuestro caso utilizaremos las mismas restricciones para el DSATUR como para el Greedy, esto con el objetivo de ver cual produce una solución con menos colores.
+```
+./main graph.txt -r 1 -v
+```
+Luego de lo cual obtendremos como respuesta en la columna COLS el resultado obtenido, siendo esta la cantidad de colores utilizada.
+
+### DSATUR
+Para compilar el algoritmo primeramente ejecutamos las siguientes lienas de codigo dentro de la carpeta correspondiente, es decir, dentro de la carpeta DSATUR.
+```
+g++ DSATUR.cpp -o main
+./main
+``` 
+Introduciomos los parametros.
+```
+./main graph.txt -r 1 -v
+```
+Como podra comprobar el número de colores como resultado de DSATUR es menor a la cantidad de los colores utilizados por el Greedy.
+
+### ColGraph
+En la carpeta ColGraph tenemos una variedad de algoritmos los cuales se encuentran disponibles para ser probados.
+Correr la siguiente línea de código para compilar:
 ```
 > g++ colgraph.cpp -o main
 > ./main
