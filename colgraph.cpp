@@ -412,13 +412,13 @@ void readSolution(string path, int k) {
 int main(int argc, char** argv) {
 
 	if (argc <= 1) {
-		cout << "Algoritmos constructivos para colorear gráficos\n\n"
+		cout << "Algoritmos constructivos para colorear grafos\n\n"
 			<< "USO:\n"
 			<< "<InputFile>     (Requerido. El archivo debe estar en formato DIMACS)\n"
-			<< "-a <int>        (elegir Algoritmo: 1 = Greedy (permutación aleatoria de vértices) (default)\n"
-			<< "                                   2 = Greedy (grados de vértice descendente / algoritmo Welsh-Powell)\n"
+			<< "-a <int>        (elegir Algoritmo: 1 = Greedy (permutacion aleatoria de vertices) (default)\n"
+			<< "                                   2 = Greedy (grados de vertice descendente / algoritmo Welsh-Powell)\n"
 			<< "                                   3 = DSatur\n"
-			<< "                                   4 = Greedy-IS (permutación aleatoria de vértices)\n"
+			<< "                                   4 = Greedy-IS (permutacion aleatoria de vertices)\n"
 			<< "                                   5 = RLF)\n"
 			<< "-r <int>        (Random seed(semilla). DEFAULT = 1)\n"
 			<< "-v              (Info)\n"
