@@ -20,7 +20,7 @@ Utilizar el método de coloración de grafos para generar horarios.
 - Generar un horario factible para cierto conjunto de datos.
 
 # Estructura del Proyecto
-Durante el desarrollo del segundo parcial nos centramos en la busqueda de algoritmos que nos ayuden principalmente el problema de coloración de grafos, entre los cuales por ejemplo podemos encontrar las implementaciones del BacktrackingDSatur, el algortimo DSatur y el algoritmo Greddy. Todo esto se presenta en la sección algoritmos para colorear grafos.
+Durante el desarrollo del segundo parcial nos centramos en la busqueda de algoritmos que nos ayuden principalmente el problema de coloración de grafos, entre los cuales por ejemplo podemos encontrar las implementaciones del BacktrackingDSatur, el algortimo DSatur y el algoritmo Greedy. Todo esto se presenta en la sección algoritmos para colorear grafos.
 
 Durante el periodo del tercer parcial nos centramos en la implementación para generar un horario a partir de los requerimientos de alumnos para llevar cursos en cierto semestre por ejempo, y en base a los cursos disponibles por ejemplo.
 Es asi que la implementación se encuentra en la carpeta Horarios y su explicación se encuentra en la segunda seccción del proyecto.
@@ -83,6 +83,7 @@ viernes: 5
 # Implementación para generar horarios
 Para la generación de horarios debemos centrarnos en la carpeta **Horarios**, en la cual se encuentra la implementación para la generación de horarios.
 Dentro de esta carpeta podemos encontrar la sección Inputs en la cual se presenta un pequenio test para comprobar la funcionalidad de este.
+Esta implementación esta basada en el algoritmo Greedy y en trabajos futuros nos gustaria implementar otros algortimos adicionalmente. 
 
 ### Inputs
 Dentro de esta carptea tenemos dos archivos, el archivo **Clases.csv**  nos indica los cursos que estan disponibles en una jornada normal, estos son nuestros Nodos en el grafo. El archivo **Requerimientos.csv** nos indica que cursos solicita cada estudiante, estos funcionan como aristas y nos limitan las formas de generar el horario.
@@ -100,3 +101,7 @@ y 2 del tipo *.txt*:
 ## Generación de Horarios
 Dirigirse a la carpeta **Horarios** y luego ejecutar el archivo **main.cpp**.
 
+# Trabajos futuros
+- Implementar un algoritmo genético para la generación de horarios.
+- Implementar una interfaz gráfica con ayuda de QT
+- Comparar los resultados obtenidos con el método Greedy frente a un algoritmo genético.
