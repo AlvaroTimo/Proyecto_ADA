@@ -15,12 +15,9 @@ Para generar un horario universitario necesitamos considerar ciertas restriccion
 Utilizar el método de coloración de grafos para generar horarios.
 
 ## Objetivos especificos
-
-> Solucionar el problema mediante código escalable, sobre el cual se pueda mejorar la implementación con opciones más avanzadas en un futuro.
-
-> Generar una gráfica del grafo mediante graphviz.
-
-> Generar un horario factible para cierto conjunto de datos.
+- Solucionar el problema mediante código escalable, sobre el cual se pueda mejorar la implementación con opciones más avanzadas en un futuro.
+- Generar una gráfica del grafo mediante graphviz.
+- Generar un horario factible para cierto conjunto de datos.
 
 ## Compilación en Microsoft Visual Studio
 1. Abra Visual Studio y haga clic en Archivo, luego en Nuevo y luego en Proyecto a partir de código existente.
