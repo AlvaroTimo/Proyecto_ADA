@@ -65,8 +65,8 @@ Como podra comprobar el número de colores como resultado de DSATUR es menor a l
 En la carpeta ColGraph tenemos una variedad de algoritmos los cuales se encuentran disponibles para ser probados.
 Correr la siguiente línea de código para compilar:
 ```
-> g++ colgraph.cpp -o main
-> ./main
+g++ colgraph.cpp -o main
+./main
 ```
 Al ejecutar el archivo sin argumentos, se arroja lo siguiente:
 ```
@@ -86,8 +86,8 @@ USO:
 Ejecutar el archivo con argumentos -a -r -v
 -Ejemplo: -a 1 (Representa 1=Greedy) 
 ```
-> g++ colgraph.cpp -o main
-> ./main graph.txt -a 1 -r 1 -v
+g++ colgraph.cpp -o main
+./main graph.txt -a 1 -r 1 -v
 ```
 ```
  COLS     CPU-TIME(ms)  CHECKS
