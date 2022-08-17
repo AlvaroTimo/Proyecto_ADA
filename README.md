@@ -27,10 +27,12 @@ programas. La línea simple que comienza con "p edge" especifica que las aristas
 del gráfico. Como resultado, hay 29 líneas que comienzan con 'e'.
 
 ## Comandos para la ejecución de los algoritmos
-Al ejecutar el archivo sin argumentos, se arroja lo siguiente:
 ```
 > g++ colgraph.cpp -o main
 > ./main
+```
+Al ejecutar el archivo sin argumentos, se arroja lo siguiente:
+```
 Algoritmos constructivos para colorear grafos
 
 USO:
@@ -44,9 +46,21 @@ USO:
 -v              (Info)
 ****
 ```
-Ejecutar el archivo con argumentos -a -r -v:
-Ejemplo: -a 3 (Representa DSatur) 
+Ejecutar el archivo con argumentos -a -r -v
+-Ejemplo: -a 3 (Representa DSatur) 
 ```
 > g++ colgraph.cpp -o main
 > ./main graph.txt -a 3 -r 1 -v
+```
+```
+C-1     = {2, 3, 9}
+C-2     = {7, 8}
+C-3     = {4}
+C-4     = {5}
+Numero total de nodos = 11
+
+Greedy  5       0       116
+
+1 6 10 11               2 3 9           7 8             4               5
+
 ```
