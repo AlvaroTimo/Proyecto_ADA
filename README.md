@@ -29,6 +29,8 @@ del gráfico. Como resultado, hay 29 líneas que comienzan con 'e'.
 ## Comandos para la ejecución de los algoritmos
 Al ejecutar el archivo sin argumentos, se arroja lo siguiente:
 ```
+> g++ colgraph.cpp -o main
+> ./main
 Algoritmos constructivos para colorear grafos
 
 USO:
@@ -42,8 +44,9 @@ USO:
 -v              (Info)
 ****
 ```
-Al ejecutar con argumentos -a -r -v:
+Ejecutar el archivo con argumentos -a -r -v:
+Ejemplo: -a 3 (Representa DSatur) 
 ```
 > g++ colgraph.cpp -o main
-> ./main graph.txt -a 1 -r 1 -v
+> ./main graph.txt -a 3 -r 1 -v
 ```
