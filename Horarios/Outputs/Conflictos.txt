@@ -1,0 +1,67 @@
+Lista de pares de clases y estudiantes con conflictos para ese par de clases:
+Para la pareja del cursos: ADA 1703131 : COMPI 1703133
+Soto Begazo, Juan Manuel
+Ticona Motta, Alvaro Joel
+Choquehuanca Anchoneyra, Roy Angel
+
+Para la pareja del cursos: ADA 1703131 : AEDE 1703134
+Soto Begazo, Juan Manuel
+Ticona Motta, Alvaro Joel
+
+Para la pareja del cursos: ADA 1703131 : EDIF 1703135
+Ticona Motta, Alvaro Joel
+Apaza Condori, Jhon Anthony
+Choquehuanca Anchoneyra, Roy Angel
+
+Para la pareja del cursos: ADA 1703131 : ISI 1703132
+
+Para la pareja del cursos: ADA 1703131 : BDII 1703130
+
+Para la pareja del cursos: ADA 1703131 : EGP 1705158
+Apaza Condori, Jhon Anthony
+Choquehuanca Anchoneyra, Roy Angel
+
+Para la pareja del cursos: COMPI 1703133 : AEDE 1703134
+Soto Begazo, Juan Manuel
+Ticona Motta, Alvaro Joel
+Cardenas Talavera, Rolando Jesus 
+
+Para la pareja del cursos: COMPI 1703133 : EDIF 1703135
+Ticona Motta, Alvaro Joel
+Choquehuanca Anchoneyra, Roy Angel
+
+Para la pareja del cursos: COMPI 1703133 : ISI 1703132
+Cardenas Talavera, Rolando Jesus 
+
+Para la pareja del cursos: COMPI 1703133 : BDII 1703130
+Cardenas Talavera, Rolando Jesus 
+
+Para la pareja del cursos: COMPI 1703133 : EGP 1705158
+Choquehuanca Anchoneyra, Roy Angel
+
+Para la pareja del cursos: AEDE 1703134 : EDIF 1703135
+Ticona Motta, Alvaro Joel
+
+Para la pareja del cursos: AEDE 1703134 : ISI 1703132
+Cardenas Talavera, Rolando Jesus 
+
+Para la pareja del cursos: AEDE 1703134 : BDII 1703130
+Cardenas Talavera, Rolando Jesus 
+
+Para la pareja del cursos: AEDE 1703134 : EGP 1705158
+
+Para la pareja del cursos: EDIF 1703135 : ISI 1703132
+
+Para la pareja del cursos: EDIF 1703135 : BDII 1703130
+
+Para la pareja del cursos: EDIF 1703135 : EGP 1705158
+Apaza Condori, Jhon Anthony
+Choquehuanca Anchoneyra, Roy Angel
+
+Para la pareja del cursos: ISI 1703132 : BDII 1703130
+Cardenas Talavera, Rolando Jesus 
+
+Para la pareja del cursos: ISI 1703132 : EGP 1705158
+
+Para la pareja del cursos: BDII 1703130 : EGP 1705158
+
