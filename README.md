@@ -47,12 +47,16 @@ USO:
 ****
 ```
 Ejecutar el archivo con argumentos -a -r -v
--Ejemplo: -a 3 (Representa DSatur) 
+-Ejemplo: -a 1 (Representa 1=Greedy) 
 ```
 > g++ colgraph.cpp -o main
-> ./main graph.txt -a 3 -r 1 -v
+> ./main graph.txt -a 1 -r 1 -v
 ```
 ```
+ COLS     CPU-TIME(ms)  CHECKS
+    5          0ms      116
+
+C-0     = {1, 6, 10, 11}
 C-1     = {2, 3, 9}
 C-2     = {7, 8}
 C-3     = {4}
@@ -61,6 +65,10 @@ Numero total de nodos = 11
 
 Greedy  5       0       116
 
-1 6 10 11               2 3 9           7 8             4               5
+lunes: 1 6 10 11
+martes: 2 3 9
+miercoles: 7 8
+jueves: 4
+viernes: 5 
 
 ```
