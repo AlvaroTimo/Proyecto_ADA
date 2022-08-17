@@ -8,13 +8,11 @@
 * Apaza Condori Jhon Anthony
 
 ## Definicion del problema
-
 La generación de horarios puede ser compleja dependiendo de cuántos cursos está compuesto, esta tarea en muchos colegios demora horas e incluso días, en el presente proponemos una automatización por medio de la coloración de grafos.
 Para generar un horario universitario necesitamos considerar ciertas restricciones, ya sea respecto a los horarios de disponibilidad de los profesores, la cantidad de cursos a satisfacer y las clases que se deben generar. Este problema puede ser atacado mediante la coloración de grafos y es tema central de este trabajo. 
 
 ## Objetivo General
-
-> Utilizar el método de coloración de grafos para generar horarios.
+Utilizar el método de coloración de grafos para generar horarios.
 
 ## Objetivos especificos
 
