@@ -27,6 +27,8 @@ Es asi que la implementación se encuentra en la carpeta Horarios y su explicaci
 
 
 # Algoritmos para colorear grafos
+En este proyecto tenemos los algoritmos BacktrackingDSatur, DSatur y Greedy, ademas tenemos un archivo *colgraph.cpp*.
+
 ## Input - Grafo
 A continuación se muestran las primeras líneas del archivo **graph.txt**, que se incluye. Las líneas iniciales
 comienzan con el carácter "c". Estos son comentarios que le dan al usuario información textual sobre el gráfico, los cuales son ignorados por los
