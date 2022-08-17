@@ -76,7 +76,7 @@ viernes: 5
 Para la generación de horarios debemos centrarnos en la carpeta **Horarios**, en la cual se encuentra la implementación para la generación de horarios.
 Dentro de esta carpeta podemos encontrar la sección Inputs en la cual se presenta un pequenio test para comprobar la funcionalidad de este.
 
-###Inputs
+### Inputs
 Dentro de esta carptea tenemos dos archivos, el archivo **Clases.csv**  nos indica los cursos que estan disponibles en una jornada normal, estos son nuestros Nodos en el grafo. El archivo **Requerimientos.csv** nos indica que cursos solicita cada estudiante, estos funcionan como aristas y nos limitan las formas de generar el horario.
 
 ### Outputs
