@@ -384,10 +384,13 @@ vector<int> RLF(Graph& G) {
 }
 
 void table(vector<vector<int>> &sol, int k) {
+    vector<string> dias = {"lunes","martes","miercoles","jueves","viernes"};
+
     for (int i=0; i<k; i++) {
+        cout << dias[i] << ": ";
         for (auto j : sol[i])
             cout << j << " ";
-        cout << "\t\t";
+        cout << "\n";
     }
     cout << '\n';
 }
