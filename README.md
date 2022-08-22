@@ -18,7 +18,10 @@ Utilizar el método de coloración de grafos para generar horarios.
 - Solucionar el problema mediante código escalable, sobre el cual se pueda mejorar la implementación con opciones más avanzadas en un futuro.
 - Generar una gráfica del grafo mediante graphviz.
 - Generar un horario factible para cierto conjunto de datos.
-
+# Aspectos generales para la instalación
+El proyecto esta escrito en el lenguaje de programación C++, no tiene ninguna limitación con respecto a la plataforma donde se realize la instalación.
+Requerimiento principal:
+ - C++ 11, C++14 o versiones posteriores
 # Estructura del Proyecto
 Durante el desarrollo del segundo parcial nos centramos en la busqueda de algoritmos que nos ayuden principalmente el problema de coloración de grafos, entre los cuales por ejemplo podemos encontrar las implementaciones del BacktrackingDSatur, el algortimo DSatur y el algoritmo Greedy. Todo esto se presenta en la sección algoritmos para colorear grafos.
 
