@@ -7,6 +7,9 @@
 * Ticona Motta Alvaro Joel
 * Apaza Condori Jhon Anthony
 
+## Link Video Presentacion
+[Link Aqui](https://www.youtube.com/watch?v=yYR037PGNi4&ab_channel=ALVAROJOELTICONAMOTTA)
+
 ## Definicion del problema
 La generación de horarios puede ser compleja dependiendo de cuántos cursos está compuesto, esta tarea en muchos colegios demora horas e incluso días, en el presente proponemos una automatización por medio de la coloración de grafos.
 Para generar un horario universitario necesitamos considerar ciertas restricciones, ya sea respecto a los horarios de disponibilidad de los profesores, la cantidad de cursos a satisfacer y las clases que se deben generar. Este problema puede ser atacado mediante la coloración de grafos y es tema central de este trabajo. 
@@ -22,6 +25,7 @@ Utilizar el método de coloración de grafos para generar horarios.
 El proyecto esta escrito en el lenguaje de programación C++, no tiene ninguna limitación con respecto a la plataforma donde se realize la instalación.
 Requerimiento principal:
  - C++ 11, C++14 o versiones posteriores
+ 
 # Estructura del Proyecto
 Durante el desarrollo del segundo parcial nos centramos en la busqueda de algoritmos que nos ayuden principalmente el problema de coloración de grafos, entre los cuales por ejemplo podemos encontrar las implementaciones del BacktrackingDSatur, el algortimo DSatur y el algoritmo Greedy. Todo esto se presenta en la sección algoritmos para colorear grafos.
 
